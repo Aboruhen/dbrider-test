@@ -1,0 +1,12 @@
+version: '3.8'
+services:
+  database:
+    container_name: mysql-demo
+    image: mysql
+    ports:
+      - 3306:3306
+    environment:
+      MYSQL_RANDOM_ROOT_PASSWORD: "true"
+      MYSQL_DATABASE: demo
+      MYSQL_USER: demo
+      MYSQL_PASSWORD: d2m3

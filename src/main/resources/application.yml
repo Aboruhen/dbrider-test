@@ -1,0 +1,11 @@
+spring:
+  liquibase:
+    change-log: classpath:/db/changelog/db.changelog-persistence.xml
+  datasource:
+    url: jdbc:mysql://localhost:3306/demo
+    username: demo
+    password: d2m3
+
+hibernate:
+  id:
+    new_generator_mappings: false
