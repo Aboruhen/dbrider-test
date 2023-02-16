@@ -1,10 +1,13 @@
 book:
   - name: Ukraine
+    about: "new Date().toString()"
     title: UA
     id: 3
   - name: Poland
     title: PL
+    about: about
     id: 4
   - name: Lithuania
+    about: about
     title: LT
     id: 5

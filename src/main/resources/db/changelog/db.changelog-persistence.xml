@@ -41,7 +41,7 @@
 
     <include file="db.changelog-initial.xml" context="initial_2022.07" relativeToChangelogFile="true"/>
     <include file="db.changelog-initial_2.xml" context="upgrade_to_2" relativeToChangelogFile="true"/>
-<!--    <include file="db.changelog-initial_3.xml" context="upgrade_to_3" relativeToChangelogFile="true"/>-->
+    <include file="db.changelog-initial_3.xml" context="upgrade_to_3" relativeToChangelogFile="true"/>
 <!--    <include file="db.changelog-initial_4.xml" context="upgrade_to_4" relativeToChangelogFile="true"/>-->
 
 </databaseChangeLog>

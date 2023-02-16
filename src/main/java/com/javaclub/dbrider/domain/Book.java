@@ -18,8 +18,18 @@ public class Book {
     @Column
     private String title;
 
+    private String about;
+
     @Column
     private String name;
+
+    public String getAbout() {
+        return about;
+    }
+
+    public void setAbout(String about) {
+        this.about = about;
+    }
 
     public Long getId() {
         return id;
